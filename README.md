@@ -38,11 +38,30 @@ Make sure the script is executable :
 chmod +x kru2d.sh
 ```
 
-and run it :
+and run it manually :
 
 ```bash
 ./kru2d.sh
 ```
+
+or execute it automatically at launch of your terminal. 
+Modify your (bash/zsh/...)rc file.
+
+I use zsh as shell, so I modify my zshrc file :
+
+```bash
+nano ~/.zshrc
+```
+
+and I add this line at the end of the file :
+
+```bash
+source /Path_of_your_dev_dir/KeepReposUp2Date/kru2d.sh
+```
+
+Don't forget to replace Path_of_your_dev_dir by your really development path.
+
+Do this on all your computers.
 
 <br />
 
